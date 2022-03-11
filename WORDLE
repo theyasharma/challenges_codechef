@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    
+    int t;
+    cin>>t;
+    while(t--){
+      string s,t,m;
+      char ch1='B';
+      char ch2='G';
+      cin>>s;
+      cin>>t;
+      for(int i=0;i<5;i++){
+        if(s[i]!=t[i]){
+         m+= ch1;
+        }else{
+         m+= ch2;
+        }
+      }
+      cout<<m<<endl;
+      
+      
+    }
+}
